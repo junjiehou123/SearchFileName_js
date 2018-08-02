@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 
 public class FindFunction {
     public static void main(String args[]) throws Exception {
-        ArrayList<String> files = getFiles("*");
+        ArrayList<String> files = getFiles("G:\\xiizii.data\\spider_js\\src");
         for (int i = 0; i < files.size(); i++) {
             String file = readFile(files.get(i));
             String name = files.get(i);

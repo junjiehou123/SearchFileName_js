@@ -1,10 +1,10 @@
 import java.sql.*;
 
 public class DB {
-    public static final String url = "database_url";
+    public static final String url = "jdbc:mysql://db01.ikcest-test.cekasp.cn:13306/xiizii_dev";
     public static final String name = "com.mysql.jdbc.Driver";
-    public static final String user = "user";
-    public static final String password = "password";
+    public static final String user = "dev";
+    public static final String password = "OnlyDev";
 
     public Connection conn = null;
 
